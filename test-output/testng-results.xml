@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-31T09:33:16 IST" name="Default suite" finished-at="2024-05-31T09:33:25 IST" duration-ms="8357">
+    <groups>
+    </groups>
+    <test started-at="2024-05-31T09:33:16 IST" name="Default test" finished-at="2024-05-31T09:33:25 IST" duration-ms="8357">
+      <class name="Extent_Report.AttachScreenShot">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:16 IST" name="beforeClass" finished-at="2024-05-31T09:33:18 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:18 IST" name="beforeMethod" finished-at="2024-05-31T09:33:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dwsLoginwrong()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:18 IST" name="dwsLoginwrong" finished-at="2024-05-31T09:33:22 IST" duration-ms="3287" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [321] but found [123]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [321] but found [123]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Extent_Report.AttachScreenShot.dwsLoginwrong(AttachScreenShot.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dwsLoginwrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:22 IST" name="afterMethod" finished-at="2024-05-31T09:33:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dwsLoginCorrect()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:22 IST" name="dwsLoginCorrect" finished-at="2024-05-31T09:33:24 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dwsLoginCorrect -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:22 IST" name="beforeMethod" finished-at="2024-05-31T09:33:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:24 IST" name="afterMethod" finished-at="2024-05-31T09:33:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="redbus()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:24 IST" name="redbus" finished-at="2024-05-31T09:33:24 IST" depends-on-methods="Extent_Report.AttachScreenShot.dwsLoginwrong" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Extent_Report.AttachScreenShot.redbus() on instance Extent_Report.AttachScreenShot@3a7442c7 depends on not successfully finished methods 
+[Extent_Report.AttachScreenShot.dwsLoginwrong() on instance Extent_Report.AttachScreenShot@3a7442c7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Extent_Report.AttachScreenShot.redbus() on instance Extent_Report.AttachScreenShot@3a7442c7 depends on not successfully finished methods 
+[Extent_Report.AttachScreenShot.dwsLoginwrong() on instance Extent_Report.AttachScreenShot@3a7442c7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redbus -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Extent_Report.AttachScreenShot@3a7442c7]" started-at="2024-05-31T09:33:24 IST" name="afterClass" finished-at="2024-05-31T09:33:25 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Extent_Report.AttachScreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
